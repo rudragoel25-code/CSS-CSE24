@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+P{
+    color: blue;
+    background-color: cadetblue; 
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border: 10px double red;  
+    padding: 10px;
+    margin-left: 50px;
+
+}
+.jk{
+    color: red;
+    background-color: burlywood;
+}
+#l1{
+    color: yellow;
+}
+
