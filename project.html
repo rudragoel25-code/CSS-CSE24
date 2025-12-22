@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Clone – Dark Theme</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body class="dark">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" />
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search" />
+      <button>🔍</button>
+    </div>
+
+    <div class="icons">
+      <span>📹</span>
+      <span>🔔</span>
+      <span>🙂</span>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <a href="https://www.youtube.com" target="_blank">🏠 Home</a>
+      <a href="https://www.youtube.com/shorts" target="_blank">▶ Shorts</a>
+      <a href="https://www.youtube.com/feed/subscriptions" target="_blank">📺 Subscriptions</a>
+      <hr />
+      <a href="https://www.youtube.com/feed/library" target="_blank">📚 Library</a>
+      <a href="https://www.youtube.com/feed/history" target="_blank">🕒 History</a>
+    </aside>
+
+    <!-- VIDEOS SECTION -->
+    <main class="videos">
+
+      <!-- VIDEO 1 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/HcOc7P5BMi4" allowfullscreen></iframe>
+        <div class="video-text">
+          <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4" target="_blank">
+            <h4>HTML & CSS Full Course</h4>
+          </a>
+          <p>Apna College</p>
+          <p>Millions of views</p>
+        </div>
+      </div>
+
+      <!-- VIDEO 2 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen></iframe>
+        <div class="video-text">
+          <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">
+            <h4>HTML Crash Course</h4>
+          </a>
+          <p>Traversy Media</p>
+          <p>Popular video</p>
+        </div>
+      </div>
+
+      <!-- VIDEO 3 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/mU6anWqZJcc" allowfullscreen></iframe>
+        <div class="video-text">
+          <a href="https://www.youtube.com/watch?v=mU6anWqZJcc" target="_blank">
+            <h4>CSS Flexbox in 20 Minutes</h4>
+          </a>
+          <p>Web Dev Simplified</p>
+          <p>Trending</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+</body>
+</html>
